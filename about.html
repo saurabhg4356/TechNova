@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <style>
+            .t{
+                color: aliceblue;
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-variant: small-caps;
+        }
+        .pa{
+            color: aliceblue;
+            margin: 30px 10%;
+            display: flex;
+            justify-content: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        </style>
+    </head>
+
+    <body class="bg-black">
+        <header>
+            <nav
+                class="navbar navbar-expand-sm navbar-dark bg-dark py-3  "
+            >
+                <div class="container ">
+                    <img
+                        src="image/TechNova.png"
+                        class="img-fluid rounded-circle me-5"
+                        alt=""
+                        height="50px"
+                        width="50px"
+
+                    />
+                    
+                    <button
+                        class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  d-flex justify-content-evenly" id="collapsibleNavId">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ms-2 me-5">
+                                <a class="nav-link " href="index.html" aria-current="page"
+                                style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"   
+                                >Home
+                                    <span class="visually-hidden">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item  me-5 "
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link active" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item  me-5" 
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="product.html">Products</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="productdetails.html">Products Details</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="soon.html">Coming Soon</a>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    <a
+                        name=""
+                        id=""
+                        class="btn btn-outline-success ms-2"
+                        href="registeration.html"
+                        role="button"
+                        >Register</a
+                    >
+                    
+                </div>
+            </nav>
+            
+        </header>
+        <main >
+            <div
+                class="container"
+            >
+                <h1 class="t">About TechNova</h1>
+                <p class="pa">At TechNova, we are dedicated to making modern technology accessible, reliable, and affordable for everyone. We bring together a carefully selected range of electronics, including laptops, smartphones, headphones, smartwatches, and essential tech accessories, all in one convenient online store.</p>
+                <p class="pa">We believe technology should make everyday life easier, smarter, and more connected. That is why we focus on product quality, customer satisfaction, secure shopping experiences, and continuous improvement.</p>
+            </div>
+            <div
+                class="container text-center mb-4"
+                style="font-family: Georgia, 'Times New Roman', Times, serif;   text-shadow: 4px 4px 10px rgb(31, 224, 73); color: rgb(96, 164, 224);"
+            >
+                <h1>Meet Our Teams</h1>
+            </div>
+            
+            <div
+                class="container mb-5"
+            >
+                <div
+                    class="row justify-content-center align-items-center g-2"
+                >
+                    <div class="col"><div class="card mx-3 p-5 bg-black">
+                        <img class="card-img-top rounded-circle" src="Aarav Sharma.jpg" alt="Title" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-light">Aarav Sharma</h4>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info mt-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#one"
+                            >
+                                View
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="one"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="modalTitleId"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                              <span style="color: blue;"> Name -</span> Aarav Sharma 
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body d-flex justify-content-start" style="font-size: large; font-weight: 400;"><span style="color: blue;"> Role - </span> Founder & CEO</div>
+                                        <div class="modal-footer">
+                                            <p><span style="color: blue;">Bio - </span> Leads the company's vision, business strategy, and commitment to delivering a trustworthy electronics shopping experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                           
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col"><div class="card mx-3 p-5 bg-black">
+                        <img class="card-img-top rounded-circle" src="priya mehta.jpg" alt="Title" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-light">Priya Mehta</h4>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info mt-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#two"
+                            >
+                                View
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="two"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="modalTitleId"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                              <span style="color: blue;"> Name -</span> Priya Mehta
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body d-flex justify-content-start" style="font-size: large; font-weight: 400;"><span style="color: blue;"> Role - </span> Technology Lead</div>
+                                        <div class="modal-footer">
+                                            <p><span style="color: blue;">Bio - </span> Oversees the digital shopping experience, website usability, and technology improvements that make browsing products simple.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col"><div class="card mx-3 p-5 bg-black">
+                        <img class="card-img rounded-circle " src="Rohan Desai.jpg" alt="Title" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-light">Rohan Desai</h4>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info mt-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#three"
+                            >
+                                View
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="three"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="modalTitleId"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                              <span style="color: blue;"> Name -</span> Rohan desai 
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body d-flex justify-content-start" style="font-size: large; font-weight: 400;"><span style="color: blue;"> Role - </span> Customer Manager</div>
+                                        <div class="modal-footer">
+                                            <p><span style="color: blue;">Bio - </span> Focuses on customer queries, product information, after-sales assistance, and improving customer satisfaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div
+                class="container mb-4"
+                style="text-align: center; font-size: x-large; font-variant: small-caps; font-weight: 700;text-shadow: 4px 6px 7px rgb(214, 214, 76); color: rgb(121, 144, 220);"
+            >
+                <h1>Our Achievements </h1>
+            </div>
+            
+            <div
+                class="container d-flex justify-content-between mt-5 text-light"
+            >
+                <h3>Customer Satisfaction :</h3>
+                <div class="progress "
+                style="width: 60%;
+                height: 25px;
+                border-radius: 20px;
+                "
+
+                >
+                    <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        
+                        role="progressbar"
+                        style="width: 85%;"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        
+                    >
+                        Excellet
+                    </div>
+                </div>
+                
+
+            </div>
+            <div
+                class="container d-flex justify-content-between text-light"
+            >
+                <h3>Customer Satisfaction :</h3>
+                <div class="progress "
+                style="width: 60%;
+                height: 25px;
+                border-radius: 20px;
+                "
+
+                >
+                    <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        
+                        role="progressbar"
+                        style="width: 75%;"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        
+                    >
+                        Great
+                    </div>
+                </div>
+                
+
+            </div>
+            </div>
+            
+            <div
+                class="container d-flex justify-content-between mb-4 text-light"
+            >
+                <h3>Product Quality :</h3>
+                <div class="progress "
+                style="width: 60%;
+                height: 25px;
+                border-radius: 20px;
+                "
+
+                >
+                    <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        
+                        role="progressbar"
+                        style="width: 95%;"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        
+                    >
+                        Absolute
+                    </div>
+                </div>
+                </div>
+                
+                <div
+            class="container text-center my-4"
+         >
+           <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-variant: small-caps; text-decoration: underline dotted; text-shadow: 4px 4px 10px rgb(92, 225, 87); color: rgb(102, 152, 196);">FAQS</h1>
+           
+         </div>
+                <div
+            class="container text-center mb-5 "
+            style="background:none;"
+         >
+            <div class="accordion accordion-flush " id="accordionFlushExample" style="background:none;" >
+                <div class="accordion-item " style="background:none;">
+                    <h2 class="accordion-header " id="flush-headingOne" style="background:none;">
+                        <button
+                            class="accordion-button collapsed text-light "
+                            style="background:none; font-weight: 600; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="true"
+                            aria-controls="flush-collapseTwo"
+                        >
+                            What products can i buy from TechNova?
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapseTwo"
+                        class="accordion-collapse collapse "
+                        style="background:none;"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                    >
+                        <div class="accordion-body text-info bg-black"
+                        style="font-style: italic; font-weight: 400; font-size: medium;"
+                        >
+                           TechNova offers a selection of electronics and accessories, including laptops, headphones, smartwatches, keyboards, computer accessories, and other everyday technology products.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample" style="background:none;">
+                <div class="accordion-item" style="background:none;">
+                    <h2 class="accordion-header" id="flush-headingOne" style="background:none;">
+                        <button
+                            class="accordion-button collapsed text-light"
+                            style="background:none; font-weight: 600; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse3"
+                            aria-expanded="true"
+                            aria-controls="flush-collapse3"
+                        >
+                           How can i track my oreder ?
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapse3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading3"
+                        data-bs-parent="#accordionFlushExample"
+                    >
+                        <div class="accordion-body text-info bg-black"
+                        style="font-style: italic; font-weight: 400; font-size: medium;"
+                        >
+                            After placing an order, customers can use their order confirmation details and the order-tracking facility, when available, to check delivery progress. For this assignment, order tracking can be presented as a demo feature.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample" style="background:none;">
+                <div class="accordion-item" style="background:none;">
+                    <h2 class="accordion-header" id="flush-headingOne" style="background:none;">
+                        <button
+                            class="accordion-button collapsed text-light"
+                            style="background:none; font-weight: 600; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse4"
+                            aria-expanded="true"
+                            aria-controls="flush-collapse4"
+                        >
+                            What is your return and replacement policy?
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        style="background:none;"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                    >
+                        <div class="accordion-body text-info bg-black" style="background:none;"
+                        style="font-style: italic; font-weight: 400; font-size: medium;"
+                        >
+                           Eligible products may be returned or replaced according to the product's stated return window and condition requirements. Customers should review the Return Policy on the product details page before placing an order.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample" style="background:none;">
+                <div class="accordion-item" style="background:none;">
+                    <h2 class="accordion-header" id="flush-headingOne" style="background:none;">
+                        <button
+                            class="accordion-button collapsed text-light"
+                            type="button"
+                            style="background:none; font-weight: 600; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse5"
+                            aria-expanded="true"
+                            aria-controls="flush-collapse5"
+                        >
+                            How can i contact customer support ?
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapse5"
+                        style="background:none;"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                    >
+                        <div class="accordion-body text-info bg-black" style="background:none;"
+                        style="font-style: italic; font-weight: 400; font-size: medium;"
+                        >
+                            Customers can use the Contact Us page to submit their name, email address, phone number, and message. The support team can then follow up using the contact information provided.
+                        </div>
+                    </div>
+                </div>
+                
+            
+            
+            
+         </div>
+            <div
+                class="container my-5"
+            >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zcl5N9ENeKc?si=NWOXPPRwuYaY_9yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            
+            
+            
+            <div
+                class="container d-flex justify-content-center mb-4"
+            >
+                <nav aria-label="Page navigation">
+                    <ul
+                        class="pagination    "
+                    >
+                        
+                        <li class="page-item  " aria-current="page">
+                            <a class="page-link bg-black" href="index.html">1</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link bg-black " href="about.html">2</a></li>
+                        <li class="page-item">
+                            <a class="page-link bg-black"  href="product.html">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="productdetails.html">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="contact.html">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="soon.html">6</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                
+            </div>
+        </main>
+        <footer class=" text-center py-4 bg-dark text-light " style="font-size: larger; font-family: monospace;">
+            &copy; 2026 TechNova Store. All rights reserved            
+        </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

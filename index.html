@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <style>
+            body{
+        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPXRzaZvTm2hWidBvXEkiPlSrBWLf-MMl5ZwJEaL6fiA&s")  ;
+        background-repeat: no-repeat; */
+        background-size: cover;
+        margin: 0;
+        background-color: black;
+
+        
+
+    
+
+    }
+    video{
+        height: auto;
+        width: 100%;
+        z-index: -1;
+        position: fixed;
+        opacity: 40%;
+        top: 0px;
+    }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-sm navbar-dark bg-dark py-3  "
+                
+            >
+                <div class="container ">
+                    <img
+                        src="image/TechNova.png"
+                        class="img-fluid rounded-circle me-5"
+                        alt=""
+                        height="50px"
+                        width="50px"
+
+                    />
+                    
+                    <button
+                        class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  d-flex justify-content-evenly" id="collapsibleNavId">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ms-2 me-5">
+                                <a class="nav-link active" href="index.html" aria-current="page"
+                                style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"   
+                                >Home
+                                    <span class="visually-hidden">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item  me-5 "
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item  me-5" 
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="product.html">Products</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="productdetails.html">Products Details</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item  me-5"
+                            style="font-weight: 600; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: larger;"
+                            >
+                                <a class="nav-link" href="soon.html">Coming Soon</a>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    <a
+                        name=""
+                        id=""
+                        class="btn btn-outline-success ms-2"
+                        href="registeration.html"
+                        role="button"
+                        >Register</a
+                    >
+                    
+                </div>
+            </nav>
+            
+        </header>
+        <main>
+            <!-- <div>
+                <video src="bg-video.mp4" autoplay loop muted></video>
+            </div> -->
+            <div
+                class="container my-3"
+            >
+                <!-- Flexbox container for aligning the toasts -->
+                <div
+                    aria-live="polite"
+                    aria-atomic="true"
+                    class="d-flex justify-content-center align-items-center"
+                    
+                >
+                    <!-- Then put toasts within -->
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header bg-black text-light">
+                            <img
+                                src="image/TechNova.png"
+                                class="rounded me-2"
+                                alt="Bootstrap"
+                                height="40px"
+                                width="auto"
+                            />
+                            <strong class="me-auto text-light"
+                            style="font-variant: small-caps; font-size: medium;"
+                            >🎊 TechNova Store 🎊</strong>
+                            <small></small>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="toast"
+                                aria-label="Close"
+                                style="color: aliceblue; background-color: aliceblue;"
+                            ></button>
+                        </div>
+                        <div class="toast-body"
+                        style="font-weight: 500; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+                        >
+                            🎉   Hello User, Welcome!
+                        </div>
+                    </div>
+                </div>
+                
+               
+                
+            </div>
+
+            <div
+                class="container"
+            >
+                <div
+                    class="alert alert-warning alert-dismissible fade show"
+                    role="alert"
+                >
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                    ></button>
+                
+                    <strong>Heloo User!</strong> Get Free Delivery on orders above Rs. 999
+                </div>
+                
+            </div>
+            
+            <div
+                class="container my-5"
+            >
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            <!-- aria-label="First slide" -->
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                            aria-label="Second slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                            aria-label="Third slide"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active ">
+                            <img
+                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Two-Surface-Laptops-and-two-Surface-Pro-2-in-1-PCs-hovering-in-the-air?scl=1&fmt=png-alpha"
+                                class="w-100 d-block"
+                                alt="First slide"
+                                height="500px"
+                                style="border-radius: 20px; "
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                                <p style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;color: black;">Welcome to the Best Electronic Online Store!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBgIkGtxLhiqCAvG3koVsuGWxqQ3tZY5bcYUcpCRG9A&s=10"
+                                class="w-100 d-block"
+                                alt="Second slide"
+                                height="500px"
+                                style="border-radius: 20px; "
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                                <p style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;color:black;">Welcome to the Best Electronic Online Store!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="https://onsitego.com/blog/wp-content/uploads/2017/01/rsz_ha2025.jpg"
+                                class="w-100 d-block"
+                                alt="Third slide"
+                                height="500px"
+                                style="border-radius: 20px; "
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                                <p style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;color: black;">Welcome to the Best Electronic Online Store!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
+            
+            <div
+                class="container mt-3 mb-5"
+                style="text-align: center; font-size: x-large; font-variant: small-caps; font-weight: 700;text-shadow: 4px 6px 7px rgb(142, 233, 56); color: bisque;"
+            >
+               <h1>Products</h1>
+            </div>
+            <div
+                class="container mb-5"
+            >
+                <div
+                    class="row justify-content-center align-items-center g-2"
+                >
+                    <div class="col"><div class="card mx-2 text-center"
+                        style="box-shadow: 7px 7px 6px violet;"
+                        >
+                        <img class="card-img-top rounded " src="https://helios-i.mashable.com/imagery/articles/07HZ0m3yDLBr1Ofd1991itU/hero-image.fill.size_1200x1200.v1788457813.jpg" alt="iphone 18" 
+                        height="350px"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title" 
+                            style="font-family: monospace; font-family: monospace; font-weight: 700; text-decoration: underline dotted; font-variant: small-caps; font-size: xx-large;">Iphone 18</h4>
+                            <p class="card-text">Iphone 18 has a 2nm A20 Pro chip, upgraded variable aperture camera, and improved Siri AI capabilities.</p>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info""
+                                data-bs-toggle="modal"
+                                data-bs-target="#one"
+                            >
+                                Add to Cart
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="one"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="iphone"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-center" id="iphone">
+                                                Iphone 18
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">Get this Iphone 18 at Just ₹149000</div>
+                                        <div
+                                            class="container mb-3"
+                                        >
+                                            <a
+                                                name=""
+                                                id=""
+                                                class="btn btn-dark btn-md border text-info"
+                                                href="#"
+                                                role="button"
+                                                >Add</a
+                                            >
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col"><div class="card mx-2 text-center"
+                        style="box-shadow: 7px 7px 6px violet;"
+                        >
+                        <img class="card-img-top rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfpHvkafTn4xXSTocRK2vhRZgbU5uF6ETAgUDxawN4rg&s=10" alt="Title" 
+                        
+                        height="350px"/>
+                        <div class="card-body">
+                            <h4 class="card-title"
+                            style="font-family: monospace; font-family: monospace; font-weight: 700; text-decoration: underline dotted; font-variant: small-caps; font-size: xx-large;"
+                            >Ipad Pro</h4>
+                            <p class="card-text">Ipad Pro has Ultra Retina XDR OLED ,13-inch and 16-inch iPad Pro M5 Nano texture Glass. </p>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#two"
+                            >
+                                Add to Cart
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="two"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="ipad"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-center" id="ipad">
+                                                Ipad pro
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">Get this Ipad Pro at Just ₹139000</div>
+                                        <div
+                                            class="container mb-3"
+                                        >
+                                            <a
+                                                name=""
+                                                id=""
+                                                class="btn btn-dark btn-md border text-info"
+                                                href="#"
+                                                role="button"
+                                                >Add</a
+                                            >
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col"><div class="card mx-2 text-center"
+                        style="box-shadow: 7px 7px 6px violet;"
+                        >
+                        <img class="card-img-top rounded " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA16Pe5aIVk9I_5L4-dMgW2sRUwnwYW4f6FzmxrP1Y7A&s=10" alt="Title"
+                        height="350px"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title"
+                            style="font-family: monospace; font-family: monospace; font-weight: 700; text-decoration: underline dotted; font-variant: small-caps; font-size: xx-large;"
+                            >MacBook Pro</h4>
+                            <p class="card-text">The Apple MacBook Pro 16-inch sizes is powered by the M5, M5 Pro, and M5 Max chip families.</p>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#three"
+                            >
+                                Add to Cart
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="three"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="macbook"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-center" id="mackbook">
+                                                MackBook Pro
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">Get this MackBook Pro at Just ₹249000</div>
+                                        <div
+                                            class="container mb-3"
+                                        >
+                                            <a
+                                                name=""
+                                                id=""
+                                                class="btn btn-dark btn-md border text-info"
+                                                href="#"
+                                                role="button"
+                                                >Add</a
+                                            >
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col"><div class="card mx-2 text-center"
+                        style="box-shadow: 7px 7px 6px violet;"
+                        >
+                        <img class="card-img-top rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdeLfa1G2DjVtNT0iOG_bnzU5DOf4Q-LxhhcMAp-dUw&s=10" alt="Title" 
+                        
+                        height="350px"/>
+                        <div class="card-body">
+                            <h4 class="card-title"
+                            style="font-family: monospace; font-family: monospace; font-weight: 700; text-decoration: underline dotted; font-variant: small-caps; font-size: xx-large;"
+                            >Apple AirPods 5</h4>
+                            <p class="card-text">Apple AirPods 5 are Apple's flagship open-ear earbuds and highly comfortable, open-fit architecture.</p>
+                            <!-- Modal trigger button -->
+                            <button
+                                type="button"
+                                class="btn btn-dark btn-md border text-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#four"
+                            >
+                                Add to Cart
+                            </button>
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                                class="modal fade"
+                                id="four"
+                                tabindex="-1"
+                                data-bs-backdrop="static"
+                                data-bs-keyboard="false"
+                                
+                                role="dialog"
+                                aria-labelledby="Airpods"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document"
+                                >
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-center" id="Airpods">
+                                                Apple AirPods 5
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">Get this Ipad Pro at Just ₹39000</div>
+                                        <div
+                                            class="container mb-3"
+                                        >
+                                            <a
+                                                name=""
+                                                id=""
+                                                class="btn btn-dark btn-md border text-info"
+                                                href="#"
+                                                role="button"
+                                                >Add</a
+                                            >
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div
+                class="container d-flex justify-content-center mb-4"
+            >
+                <nav aria-label="Page navigation">
+                    <ul
+                        class="pagination    "
+                    >
+                        
+                        <li class="page-item active " aria-current="page">
+                            <a class="page-link bg-black" href="index.html">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link bg-black" href="about.html">2</a></li>
+                        <li class="page-item">
+                            <a class="page-link bg-black"  href="product.html">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="productdetails.html">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="contact.html">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link bg-black" href="soon.html">6</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                
+            </div>
+
+            
+            
+        </main>
+        <footer class=" text-center py-4 bg-dark text-light " style="font-size: larger; font-family: monospace;">
+            &copy; 2026 TechNova Store. All rights reserved            
+        </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+         <script>
+                    const toastEl = document.querySelector(".toast");
+                    const toast = new bootstrap.Toast(toastEl);
+                    toast.show();
+                </script>
+    </body>
+</html>

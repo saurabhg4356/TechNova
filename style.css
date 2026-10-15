@@ -1,0 +1,5 @@
+.nav-item:hover{
+text-shadow: 4px 4px 6px violet;
+transition: transform 4s;
+transform: perspective(50px) skew(180deg);
+}
